@@ -11,7 +11,7 @@ const routes = [
   {
     name: "user",
     path: "/user",
-    component: () => import("./view/user"),
+    component: () => import("@/view/user"),
     meta: {
       title: "会员中心",
     },
@@ -19,7 +19,7 @@ const routes = [
   {
     name: "cart",
     path: "/cart",
-    component: () => import("./view/cart"),
+    component: () => import("@/view/cart"),
     meta: {
       title: "购物车",
     },
@@ -27,7 +27,7 @@ const routes = [
   {
     name: "goods",
     path: "/goods",
-    component: () => import("./view/goods"),
+    component: () => import("@/view/goods"),
     meta: {
       title: "商品详情",
     },
